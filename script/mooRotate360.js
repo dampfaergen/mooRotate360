@@ -1,14 +1,14 @@
 /*
-    rotate360 v0.1
-    by Rickyh.co.uk & Oliveta
-    powered by Mootools
+    mooRotate360 v0.2 powered by Mootools
+    by Købstaden.dk - based on Rotate360 by Oliveta
+    
 */
-var Rotate360 = new Class({
+var mooRotate360 = new Class({
     Implements: [Options],
     options: {
         autoPlay: false,
-        tickAmount: 10,
-        frameTime: 1000,
+        tickAmount: 12,
+        frameTime: 100,
         firstFrame: 0
     },
     initialize: function (data, target, options) {
@@ -71,7 +71,7 @@ var Rotate360 = new Class({
                     self.activeImageIndex = 0;
                     self.draw();
                 }
-                //TODO progress
+                //TODO - Add progress bar
             }
         });
 

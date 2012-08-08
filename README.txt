@@ -1,17 +1,22 @@
 ************************************************************************
-Rotate360
+mooRotate360
+
+A mooTools plugin for 360 image rotation.
+
+Based on oliveta / Rotate360
+Link: https://github.com/oliveta/Rotate360
+
 ************************************************************************
 
 v.0.1 - by Oliveta & ricky.co.uk (2010)
+v.0.2 - by Købstaden
 
 --------
 Contents
 --------
 
-This product includes the following items.
-
 - index.html
-Basic usage examples.
+HTML page with example usage.
 
 - script/Rotate360.js
 JavaScript class for rotating images.
@@ -22,8 +27,8 @@ Mootools classes Assets and Spinner.
 - images/
 Directory of supporting image material. Note: spinner.gif is used by Spinner class when loading images.
 
-- ReadMe
-This file. It provides important information about Rotate360 class.
+- Readme.txt
+This file.
 
 --------
 Use
