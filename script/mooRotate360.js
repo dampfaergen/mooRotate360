@@ -1,6 +1,7 @@
 /*
-    mooRotate360 v0.2 powered by Mootools
-    by Købstaden.dk - based on Rotate360 by Oliveta
+    mooRotate360 v0.2
+    by Købstaden.dk
+    based on Rotate360 by Oliveta
     
 */
 var mooRotate360 = new Class({
